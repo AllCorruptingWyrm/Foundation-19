@@ -2368,7 +2368,10 @@
 /turf/simulated/floor/tiled/monotile/white,
 /area/site53/llcz/dclass/checkequip)
 "gB" = (
-/obj/machinery/vending/hydronutrients,
+/obj/structure/table/standard,
+/obj/item/seeds/wheatseed,
+/obj/item/seeds/wheatseed,
+/obj/item/seeds/wheatseed,
 /turf/simulated/floor/tiled/monotile/white,
 /area/site53/llcz/dclass/botany)
 "gC" = (
@@ -10135,6 +10138,7 @@
 	dir = 4;
 	icon_state = "railing0-1"
 	},
+/mob/living/simple_animal/friendly/cow,
 /turf/simulated/floor/grass,
 /area/site53/llcz/dclass/botany)
 "AM" = (
@@ -10153,6 +10157,7 @@
 	dir = 8
 	},
 /obj/structure/flora/ausbushes/sunnybush,
+/mob/living/simple_animal/friendly/chicken,
 /turf/simulated/floor/grass,
 /area/site53/llcz/dclass/botany)
 "AP" = (
@@ -14603,7 +14608,11 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/obj/machinery/vending/hydronutrients,
+/obj/structure/table/standard,
+/obj/item/seeds/potatoseed,
+/obj/item/seeds/potatoseed,
+/obj/item/seeds/potatoseed,
+/obj/item/seeds/potatoseed,
 /turf/simulated/floor/tiled/monotile/white,
 /area/site53/llcz/dclass/botany)
 "NG" = (
@@ -15919,9 +15928,7 @@
 "RK" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/effect/floor_decal/industrial/firstaid/corner{
-	dir = 2
-	},
+/obj/effect/floor_decal/industrial/firstaid/corner,
 /obj/machinery/door/airlock/medical{
 	name = "Surgery";
 	req_access = list("ACCESS_MEDICAL_LEVEL2")
@@ -18312,7 +18319,6 @@
 /area/site53/uhcz/scp8containment)
 "Zy" = (
 /obj/effect/floor_decal/industrial/loading{
-	dir = 2;
 	name = "Entry Line"
 	},
 /obj/effect/floor_decal/industrial/warning{
