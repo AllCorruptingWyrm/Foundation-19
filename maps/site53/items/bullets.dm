@@ -293,13 +293,13 @@
 
 /obj/item/projectile/bullet/pistol
 	fire_sound = 'sound/weapons/gunshot/gunshot_pistol.ogg'
-	damage = 40 //9mm, .38, etc
+	damage = 25 //9mm, .38, etc
 	armor_penetration = 0
 	agony = 0
 
 /obj/item/projectile/bullet/pistol/rubber
-	damage = 3 //Pistol rubber
-	agony = 30
+	damage = 2 //Pistol rubber
+	agony = 35
 	embed = 0
 	sharp = 0
 	armor_penetration = 0
@@ -334,15 +334,15 @@
 
 /obj/item/projectile/bullet/pistol/medium/smg //P90
 	fire_sound = 'sound/weapons/gunshot/gunshot_smg.ogg'
-	damage = 45 //10mm
+	damage = 35 //10mm
 	armor_penetration = 10
 	agony = 0
 
 /obj/item/projectile/bullet/pistol/medium/smg/rubber
 	fire_sound = 'sound/weapons/gunshot/gunshot_smg.ogg'
-	damage = 3 //10mm rubber
+	damage = 2 //10mm rubber
 	armor_penetration = 0
-	agony = 30
+	agony = 35
 	embed = 0
 	sharp = 0
 

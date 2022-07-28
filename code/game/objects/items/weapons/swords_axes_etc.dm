@@ -48,7 +48,8 @@
 		"<span class='warning'>You extend the baton.</span>",\
 		"You hear an ominous click.")
 		w_class = ITEM_SIZE_NORMAL
-		force = 15//quite robust
+		force = 3//do not shatter BONES.
+		agony = 15//you don't KILL the d-boy.
 		attack_verb = list("smacked", "struck", "slapped")
 	else
 		user.visible_message("<span class='notice'>\The [user] collapses their telescopic baton.</span>",\
