@@ -12,7 +12,7 @@ jobs:
     name: Run Linters
     runs-on: ubuntu-20.04
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8
       - name: Setup cache
         uses: actions/cache@v2
         with:
@@ -52,7 +52,7 @@ jobs:
           - 3306
         options: --health-cmd="mysqladmin ping" --health-interval=10s --health-timeout=5s --health-retries=3
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8
       - name: Setup cache
         uses: actions/cache@v2
         with:
@@ -85,7 +85,7 @@ jobs:
     name: Windows Build
     runs-on: windows-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8
       - name: Compile
         run: pwsh tools/ci/build.ps1
         env:
